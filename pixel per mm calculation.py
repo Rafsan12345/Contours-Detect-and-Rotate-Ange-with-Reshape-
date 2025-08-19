@@ -33,7 +33,7 @@ cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 255), 2)
 pixel_length = w  # or h, depending on orientation
 
 # Known real-world length in mm
-real_length_mm = 7
+real_length_mm = 5.9
 
 # Calculate pixels per mm
 pixel_per_mm = pixel_length / real_length_mm
